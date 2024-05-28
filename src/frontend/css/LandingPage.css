@@ -1,0 +1,90 @@
+.landing-page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D7ECD9; 
+    font-family: "Gowun Dodum", sans-serif;}
+
+.container-landing {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px;
+  }
+  .container-landing h1 {
+    font-size: 48px; 
+    margin-bottom: 30px; 
+    color:#FFA726;
+    opacity: 0;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+    font-family: "Gowun Dodum", sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .container-landing h2 {
+    margin-bottom: 40px;
+    color :  #444444;
+    opacity: 0; /* 초기에 투명하게 설정 */
+    animation: fadeInAnimation 2s ease-in-out forwards; /* 페이드인 애니메이션 적용 */
+    
+    font-family: "Gowun Dodum", sans-serif;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  .landing-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .landing-img {
+    flex: 1;
+    margin-right: 500px;
+  }
+  
+  .landing-text {
+    flex: 1; 
+    padding-left: 20px; 
+    margin-right: 1px;
+    animation: fadeInAnimation 2s ease-in-out forwards; 
+    text-align:center;
+    position: relative;
+    right: 250px;
+    margin-bottom: 50px;
+
+    /* width:220px; */
+    /* white-space:nowrap; */
+  }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.custom-button-landing{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ffffff; 
+  cursor: pointer; 
+}
+.ccustom-button-landing &:hover {
+  background-color: #f7d06d;
+}
+

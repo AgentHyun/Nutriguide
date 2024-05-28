@@ -1,0 +1,80 @@
+.detail-page {
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  flex-direction: row;/* 수평으로 정렬 */
+  /* height: 100vh; */
+  background-color: #D7ECD9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  padding:30px 150px;/*페이지의 상하  좌우 여백*/
+}
+div{
+  flex-wrap:wrap;
+}
+
+
+.minibox{
+  filter : drop-shadow(6px 6px 3px #eaeaea);
+  margin : 20px;/*옆에 박스랑 간격*/
+  background-color :white;
+  width : 100px;
+  height : 100px;
+  border-radius : 10%;
+  text-align : center;
+  cursor : pointer;
+  padding : 20px;
+  font-family: "Gowun Dodum", sans-serif;
+  
+  /* box-sizing: border-box; */
+  /* line-height:40px; */
+  /* margin:40px 40px; */
+  /* margin-bottom:30px; */
+  /* margin-top:50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.modal{
+margin-top : 20px;
+padding : 20px;
+background : #ffffff;
+text-align : left;
+color:black;
+border-radius : 10px;
+font-family: "Gowun Dodum", sans-serif;
+border: 2px solid #32cd32; 
+width: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(1);
+position: fixed;
+font-size: 130%;
+}
+
+.span{
+display:inline-block;
+cursor : pointer;
+position: fixed;
+top: 20px;
+left: 20px;
+}
+
+
+.minibox h4 {
+  /* text-align:center;
+  margin-top:38px;
+  margin-bottom:38px; */
+  /* line-height:100px; */
+  /* height:50%; */
+  position:absolute;
+  padding:10px;
+  /*텍스트를 박스 세로 가운데에 정렬*/
+}

@@ -1,0 +1,103 @@
+/* QuestionPage.css */
+
+.question-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Gowun Dodum", sans-serif;
+    background-color: #D7ECD9; /* 전체 배경색 변경 */
+    position: relative; /* 부모 요소를 기준으로 자식 요소의 위치를 설정 */
+}
+
+
+
+.question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* 로고와 제목 사이의 간격을 조절합니다. */
+}
+
+.logo-image {
+    width: 200px; /* 로고 이미지의 너비를 조절합니다. */
+    height: auto; /* 비율을 유지하면서 높이를 조절합니다. */
+    margin-right: 10px; /* 로고 이미지와 제목 사이의 간격을 조절합니다. */
+    transform: scaleX(-1); /* 이미지를 좌우로 반전시킵니다. */
+}
+
+
+h1 {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #3d3d3d;
+    margin-left: 10px; /* 제목과 로고 사이의 간격을 조절합니다. */
+}
+.question-label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+.loading {
+    margin-top: 20px; 
+    font-size: 1.2rem; 
+}
+.question-input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question-button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: rgb(53, 172, 102);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.question-button:hover {
+    background-color: #27c4af;
+}
+.under-section {
+    margin-top: 50px;
+    align-items: center;
+    background-color: #c4e4c7;
+    display: flex; /* 내용을 가로로 정렬하기 위해 flex 사용 */
+    justify-content: center; /* 가운데 정렬 */
+    padding: 40px;
+}
+.answer-container {
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.answer {
+    font-size: 1.1rem;
+    color: #333;
+}

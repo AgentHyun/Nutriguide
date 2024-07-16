@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d47c70eb.css",
+    "main.js": "/static/js/main.de6be366.js",
+    "static/js/453.6872179b.chunk.js": "/static/js/453.6872179b.chunk.js",
+    "static/media/lemon.jpg": "/static/media/lemon.e7ce019097906e9582ea.jpg",
+    "static/media/43069.jpg": "/static/media/43069.f26034000f4353fbb85b.jpg",
+    "static/media/treadmill_Mesa de trabajo 1.jpg": "/static/media/treadmill_Mesa de trabajo 1.5a96872450ba109abcdd.jpg",
+    "static/media/Bicyling-in-the-Park.jpg": "/static/media/Bicyling-in-the-Park.bd71740fde476e69393d.jpg",
+    "static/media/The-Explorers.jpg": "/static/media/The-Explorers.f89db26cca5ba00581d9.jpg",
+    "static/media/Yoga class vector 2.jpg": "/static/media/Yoga class vector 2.031f172e08b7470b5854.jpg",
+    "static/media/flat-lay-2583213_1280.jpg": "/static/media/flat-lay-2583213_1280.d87a8a831174561fc0fe.jpg",
+    "static/media/Flat-Soccer-Players.jpg": "/static/media/Flat-Soccer-Players.2d8184f8ee161e5104be.jpg",
+    "static/media/pill_character4.png": "/static/media/pill_character4.b3f72783c9cad8206180.png",
+    "static/media/pill_character1.png": "/static/media/pill_character1.213a3a669f5a87d038ef.png",
+    "static/media/robot.png": "/static/media/robot.7302a49e6b186a1119ab.png",
+    "static/media/pill_character2.png": "/static/media/pill_character2.a554b24f191d83884f07.png",
+    "static/media/nutrition.jpg": "/static/media/nutrition.0e13b017567295af2416.jpg",
+    "static/media/V0218_generated.jpg": "/static/media/V0218_generated.90930cfcda6100f6908c.jpg",
+    "static/media/pill_character3.png": "/static/media/pill_character3.6aad959fc0fa7e9e463d.png",
+    "static/media/logo.png": "/static/media/logo.a5f4d71c896c8ffd6129.png",
+    "index.html": "/index.html",
+    "main.d47c70eb.css.map": "/static/css/main.d47c70eb.css.map",
+    "main.de6be366.js.map": "/static/js/main.de6be366.js.map",
+    "453.6872179b.chunk.js.map": "/static/js/453.6872179b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d47c70eb.css",
+    "static/js/main.de6be366.js"
+  ]
+}

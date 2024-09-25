@@ -1,0 +1,237 @@
+/* 전체 페이지 설정 */
+.question-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Gowun Dodum", sans-serif;
+    background-color: #D7ECD9; /* 전체 배경색 변경 */
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    /* 헤더와 페이지 상단 사이의 간격을 설정 */
+    margin-bottom: 70px; /* 헤더와 다른 요소 사이의 간격을 설정 */
+    border-width: 8px 8px; /* 상하 두께 4px, 좌우 두께 8px */
+    border-style: solid; /* 테두리 스타일 설정 */
+    border-color: #ffffff; /* 흰색 테두리 색상 */
+    padding: 20px; /* 테두리 안쪽 여백 추가 */
+    border-radius: 10px; /* 모서리 둥글게 처리 */
+    background-color: #ffffff; /* 배경색 흰색으로 설정 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+    width: 60%; /* 헤더의 너비 설정 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    position: relative; /* 상대 위치 설정 */
+}
+
+.logo-image {
+    width: 200px; /* 로고 이미지의 너비를 조절합니다. */
+    height: auto; /* 비율을 유지하면서 높이를 조절합니다. */
+    margin-right: 10px; /* 로고 이미지와 제목 사이의 간격을 조절합니다. */
+    transform: scaleX(-1); /* 이미지를 좌우로 반전시킵니다. */
+}
+
+h1 {
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 2.5rem;
+    color: #3d3d3d;
+    margin-left: 10px; /* 제목과 로고 사이의 간격을 조절합니다. */
+}
+
+.form-and-guideline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap; /* 폼과 가이드라인이 여러 줄로 배치될 수 있도록 설정 */
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* 전체 너비 사용 */
+    max-width: 800px; /* 최대 너비 설정 */
+}
+
+.question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px; /* 최대 너비 설정 */
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* 아래쪽 여백 추가 */
+}
+
+.question-label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.question-input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question-button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: rgb(53, 172, 102);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* 버튼들 사이에 간격 추가 */
+}
+
+.question-button:hover {
+    background-color: #27c4af;
+}
+
+.guideline {
+    width: 100%; /* 전체 너비 사용 */
+    padding-right: 20px; /* 폼과 가이드라인 사이의 간격 추가 */
+    background-color: #f2f8f3;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* 가이드라인과 다른 요소 사이의 여백 추가 */
+    margin-bottom: 50px;
+}
+
+/* 가이드라인 수정 */
+.guideline ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.guideline li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.bigtitle {
+    border-bottom: 2px solid #333; /* Border on the bottom */
+    padding-bottom: 10px;
+    font-size: 1.25rem; /* Adjusted font size */
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.question-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.question1, .question2 {
+    flex: 1;
+    padding: 10px;
+}
+
+.question1 {
+    border: 1px solid #ccc; /* Border for question1 */
+    background-color: #f9f9f9;
+}
+
+.question2 {
+    border: 1px solid #ccc; /* Border for question2 */
+    background-color: #f9f9f9;
+    margin-left: 20px; /* 간격 추가 */
+}
+
+.icon {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #ff4d4f; /* X 아이콘 색상 */
+    margin-top: 5px;
+}
+
+.check-icon {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #52c043; /* 체크 아이콘 색상 */
+    margin-top: 5px;
+}
+
+.number-icon {
+    display: inline-block;
+    width: 25px; /* 아이콘 너비 조정 */
+    height: 25px; /* 아이콘 높이 조정 */
+    border-radius: 50%;
+    background-color: #387530; /* 아이콘 배경색 */
+    color: white; /* 아이콘 글자색 */
+    text-align: center;
+    line-height: 25px; /* 텍스트 수직 정렬 */
+    font-size: 14px; /* 텍스트 크기 */
+    font-weight: bold; /* 텍스트 두께 */
+    margin-right: 10px; /* 간격 조정 */
+    font-family: 'Font Awesome 5 Free'; /* 아이콘 폰트 */
+    font-weight: 900; /* 아이콘 두께 */
+}
+
+.under-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* 부모 컨테이너의 너비에 맞추기 */
+    margin-top: 20px;
+}
+
+.loading {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.answer-container {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.answer {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.question-button-top {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: white;
+    color: rgb(53, 172, 102);
+    border: 2px solid rgb(53, 172, 102);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* 버튼들 사이에 간격 추가 */
+    margin-bottom: 70px;
+}
+
+.question-button-top:hover {
+    background-color: rgb(240, 255, 240);
+}

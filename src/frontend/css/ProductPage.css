@@ -1,0 +1,305 @@
+/* ProductPage.css */
+
+/* 전체 페이지 컨테이너 */
+.page-container {
+  font-family: "Gowun Dodum", sans-serif;
+  padding: 40px 20px; /* 전체 내용 여백 추가 */
+  background-color: #D7ECD9 /* 전체 배경색 변경 */;
+  height: 200vh;
+}
+.page-container {
+  padding: 20px;
+}
+
+.research-container {
+  position: relative; /* 자식 요소의 절대 위치를 기준으로 설정 */
+}
+
+.research-section {
+  padding: 20px; /* 내용의 여백을 설정 */
+  position: relative; /* 자식 요소의 절대 위치를 기준으로 설정 */
+}
+
+.research-section h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.research-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+
+/* 페이지 제목 스타일 */
+.page-title {
+  text-align: center; /* 가운데 정렬 */
+  margin-bottom: 20px; /* 페이지 제목 하단 여백 추가 */
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 32px; /* 글자 크기 설정 */
+  color: #333; /* 글자 색상 설정 */
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+}
+
+
+/* 섹션들의 스타일 */
+.info-section {
+  display: flex;
+  flex-wrap: nowrap; /* 요소들이 넘치면 줄바꿈 하지 않고 가로 스크롤 표시 */
+  justify-content: space-between; /* 요소들을 좌우 정렬 */
+  overflow-x: auto; /* 가로 스크롤 활성화 */
+  margin-bottom: 40px; /* 섹션 하단 여백 추가 */
+  text-align: center;
+}
+/* BMI 정보와 평균 섭취량 스타일 */
+.bmi-info-container,
+.average-intake-container,
+.insufficient-container {
+  width: calc(50% - 10px); /* 정보 섹션들의 너비를 반으로 나눔 */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff; /* 흰색 배경 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+  margin-right: 30px;
+  display: flex; /* 내부 요소를 가로로 배열하기 위해 flex 사용 */
+  flex-direction: column; /* 내부 요소를 세로로 배열 */
+  justify-content: center; /* 내부 요소를 수직 가운데 정렬 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  font-size: 20px;
+}
+
+/* 테두리 스타일 */
+.bmi-info-border,
+.average-intake-border,
+.insufficient-border {
+  padding: 20px; /* 여백 설정 */
+  border-radius: 10px; /* 테두리를 둥글게 만듦 */
+}
+/* 각 설명 텍스트 스타일 */
+.bmi-info-description {
+  font-size: 16px; /* 설명 텍스트 크기 */
+  color: #353534; /* 부드러운 회색으로 조정하여 읽기 쉬움 */
+  font-weight: 400; /* 텍스트 굵기 조정 */
+  margin-top: 10px; /* 상단 여백 */
+  padding: 15px; /* 내부 여백 조정 */
+  border: 1px solid #f3b456; /* 연한 회색 테두리 */
+  border-radius: 8px; /* 테두리 둥글게 */
+  background-color: #fae6c0; /* 부드러운 회색 배경색 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 미세한 그림자 효과 */
+  line-height: 1.5; /* 줄 간격 조정 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  margin-top: 20px;
+}
+
+/* BMI 정보 스타일 */
+.bmi-info-container {
+  border: 2px solid #ff8c00; /* 주황색 테두리 */
+}
+/* 평균 섭취량 정보 스타일 */
+.average-intake-container {
+  border: 2px solid #32cd32; /* 초록색 테두리 */
+}
+.insufficient-container{
+   border: 2px solid #cdc332; /* 초록색 테두리 */
+
+}
+/* 제품 추천 섹션 스타일 */
+.supplements-section {
+  background-color: #ffffff; /* 흰색 배경 */
+  padding: 20px; /* 내용 여백 추가 */
+  border-radius: 10px; /* 테두리 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+}
+
+/* 영양제 카드 컨테이너 스타일 */
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* 카드들이 넘치면 다음 줄로 이동 */
+  gap: 20px;
+}
+
+/* 영양제 이미지와 텍스트 간격 조정 */
+.character-image-container {
+   /* 상하 여백을 40px로 조정하고 좌우 여백은 자동으로 설정 */
+  text-align: center;
+  margin-left: 185px;
+}
+
+.character-image {
+  margin-bottom: 20px; /* 영양제 이미지 아래 여백 추가 */
+  width: 150px; /* 이미지 너비 조정 */
+  height: 250px; /* 이미지 높이 조정 */
+  margin-top : 100px;
+  margin-left : 130px;
+  margin-right: 100px;
+}
+.character-text{
+  margin-right: 50px;
+}
+.character-text {
+  margin-top: 20px; /* 텍스트 위 여백 추가 */
+  margin-left:270px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.research-container {
+  display: flex; /* Flexbox를 사용하여 가로로 배치 */
+  justify-content: space-between; /* 두 섹션 사이의 공간을 조정 */
+  align-items: flex-start; /* 두 섹션의 상단을 정렬 */
+}
+
+.research-section {
+  flex: 1; /* 연구 섹션이 공간을 차지하도록 설정 */
+  margin-right: 20px; /* 이미지 섹션과의 간격 조정 */
+}
+
+.image-section {
+  display: flex;
+  flex-direction: column; /* 이미지를 세로로 정렬 */
+  justify-content: center; /* 세로 방향 중앙 정렬 */
+  align-items: center; /* 수평 방향 중앙 정렬 */
+}
+
+.research-image {
+  width: 100px; /* 이미지 너비 설정 */
+  height: 100px; /* 이미지 높이 설정 */
+  margin-bottom: 10px; /* 이미지 간의 간격 조정 */
+  object-fit: cover; /* 이미지 비율 유지 */
+}
+
+/* Button.css */
+.research-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff; /* 부드러운 배경 색상 */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1e1e1; /* 엣지 강조 */
+  margin-bottom: 50px;
+}
+
+
+.recommendation-info-description {
+  font-size: 16px; /* 설명 텍스트 크기 */
+  color: #353534; /* 부드러운 회색으로 조정하여 읽기 쉬움 */
+  font-weight: 400; /* 텍스트 굵기 조정 */
+  margin-top: 10px; /* 상단 여백 */
+  padding: 15px; /* 내부 여백 조정 */
+  border: 1px solid #56f363; /* 연한 회색 테두리 */
+  border-radius: 8px; /* 테두리 둥글게 */
+  background-color: #b3faa1; /* 부드러운 회색 배경색 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 미세한 그림자 효과 */
+  line-height: 1.5; /* 줄 간격 조정 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  margin-top: 20px;
+}
+
+.research-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #2c3e50; /* 강조된 제목 색상 */
+}
+
+.research-section p {
+  font-size: 1.1rem;
+  color: #34495e; /* 부드러운 텍스트 색상 */
+}
+
+.research-section strong {
+  color: #27ae60; /* 연구 제목 강조 색상 */
+  font-weight: bold;
+}
+
+.Button {
+  background-color: #f8bf6a;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  height: auto; /* 버튼의 높이 자동 조정 */
+  line-height: 1.6; /* 텍스트의 수직 가운데 정렬 */
+  margin-top: 10px;
+}
+.bar-chart-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.bar-chart {
+  width: 100%; /* Full width for the bar */
+  max-width: 800px; /* Increase maximum width for the chart */
+  display: flex;
+  flex-direction: column;
+  position: relative; /* To position labels and percentages correctly */
+}
+
+.bar {
+  display: flex;
+  height: 40px; /* Increase height of the bar */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow */
+  position: relative;
+  background-color: #e0e0e0; /* Background color of the entire bar */
+}
+
+.segment {
+  height: 100%; /* Full height of the parent bar */
+}
+
+.labels-percentages {
+  position: relative;
+  margin-top: 17px; /* Adjust margin to fit increased bar height */
+}
+
+.labels, .percentages {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute; /* Positioning relative to the container */
+  left: 0;
+}
+
+.labels {
+  bottom: 40px; /* Position labels below the bar */
+}
+
+.percentages {
+  bottom: 20px; /* Position percentages below the labels */
+}
+
+.label, .percentage {
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.label {
+  color: #252525;
+}
+
+.percentage {
+  color: #313131;
+}
+
+.Button:hover {
+  background-color: #ffffff; /* hover 시 배경색 변경 */
+  border-color: #fcfcfc; /* hover 시 테두리 색 변경 */
+}
+
+.Button:active {
+  background-color: #f8f8f5; /* 클릭 시 배경색 변경 */
+  border-color: #8e893e; /* 클릭 시 테두리 색 변경 */
+}
